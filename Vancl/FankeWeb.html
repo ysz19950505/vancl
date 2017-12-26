@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="styles/swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/TalkWeb.css"/>
+		<link rel="stylesheet" type="text/css" href="font_svg/iconfont.css"/>
+		<meta name="viewport" content="width = device-width" />
+	</head>
+	<body>
+		
+		<div id="body-" class="body-">
+			<a href="FankeWeGame.html"><img id="logo-m" class="logo-m" src="img/logo-default.png"/></a>
+			
+			
+			<div class="logininup" id="logininup">
+				<div></div>
+				<div class="mode-message">
+					<span class="login-out">退出</span>
+					<span class="login-change">切换</span>
+					<a href="Fakeregister.html"><span>个人中心</span></a>
+				</div>
+				<div></div>
+				<div>登录/注册</div>
+			</div>
+			
+			
+			<div class="register" id="register">
+				<div></div>
+				<div class="qr-code"><img src="img/qr-code.jpg"/></div>
+				<div></div>
+				<div>Q</div>
+				
+			</div>
+			
+			
+			<div class="main" id="main">
+				<div id="next-page" class="next-page"><p class="p-btn">更多</p></div>
+				<div id="carousel" class="carousel swiper-container">
+					
+					    <div class="swiper-wrapper">
+					        <div class="swiper-slide"><a href="#"><img src="img/banner01_bg.jpg" alt="" /></a></div>
+					        <div class="swiper-slide"><a href="#"><img src="img/banner02_bg.jpg" alt="" /></a></div>
+					        <div class="swiper-slide"><a href="#"><img src="img/banner03_bg.jpg" alt="" /></a></div>
+					    </div>
+					    <!-- 如果需要分页器 -->
+					    <div class="swiper-pagination"></div>
+					    
+					    <!-- 如果需要导航按钮 -->
+					    <div class="swiper-button-prev"></div>
+					    <div class="swiper-button-next"></div>
+					    
+					    <!-- 如果需要滚动条 -->
+					    <!--<div class="swiper-scrollbar"></div>-->
+					
+				</div>
+				<div id="left-c" class="left-c">
+					<div class="part-1">
+						<div class="talkwebedu">
+							<img src="img/88184348c5d2200561fdf490b168710c.jpg"/>
+						</div>
+						<div class="talkwebgame">
+							<img src="img/game_pic.png"/>
+						</div>
+						<div class="l-news" id="l-news">
+							<h5>凡客资讯</h5>
+							<div class="l-news-a">
+								<a href="">
+									<p>2017中国互联网百强企业新鲜出炉 </p>
+								</a>
+								
+								<a href="">
+									<p>中国互联网协会和信息化部信息中心在京联合发布</p>
+								</a>
+								
+								<a href="">
+									<p>2017中国互联网百强企业新鲜出炉</p>
+								</a>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<div id="right-c" class="right-c">
+					
+					<div class="subMenu" id="subMenu">
+						<ul class="subMenu-ul" id="subMenu-ul">
+							<li class="subMa"><a href="#">教育</a></li>
+							<li class="subMb"><a href="#">游戏</a>
+								<div class="game">
+									
+									<img src="img/599649109b910.jpg"/>
+									<img src="img/5996494870b0a.jpg"/>
+									
+								</div>
+							</li>
+							<li class="subMb"><a href="#">软件</a>
+								<div class="software">
+									<img src="img/55b1b3085c74d.jpg"/>
+									<img src="img/599feab7be6cf.jpg"/>
+								</div>
+							</li>
+							<li><a href="#">T家族</a>
+								<div class="family">
+									<img src="img/599feaecea55f.jpg"/>
+									<img src="img/55b1b2e39cee1.jpg"/>
+								</div>
+							</li>
+						</ul>
+						
+						
+						
+						<!--<div id="s-button" class="s-button">
+							<div class="game">game</div>
+							<div class="software">software</div>
+							<div class="family">family</div>
+						</div>-->
+						
+						<div class="search">
+							
+							<a class="icon-s" href="javascript:"><img src="img/search.png"/></a>
+							<div class="search-kk">
+								
+								<input type="text" id="search-k" placeholder="search" value="" />
+							</div>
+						</div>
+						
+						<div class="subnav">
+							<div class="mover">
+							</div>
+						</div>
+						<img src="img/55b1adcc9e0ba.jpg"/>
+						<img src="img/55d689987e380.png"/>
+					</div>
+				</div>
+				<div class="font-icon">
+					<div class="iconfont icon-pifuzhuti-xianxing">
+						<div class="i-color">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+					<div class="iconfont icon-diamond-o"></div>
+					<div class="iconfont icon-wenhao-xianxingyuankuang"></div>
+					<div class="iconfont icon-yingwenmoshi"></div>
+				</div>
+			</div>
+			<div id="buttom" class="buttom">
+				<p>备案号:湘B2-20100081-4、新出网证（湘）字11号、湘网文【2016】1046-021号</p>
+				<p>版权所有：凡客信息系统股份有限公司</p>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="scripts/swiper.min.js"></script>
+<script type="text/javascript" src="js/TalkWeb.js"></script>
+<script src="js/change-color.js"></script>
+<script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'horizontal',
+    loop: true,
+    
+     pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+        
+      },
+      autoplay: true,
+    // 如果需要滚动条
+//  scrollbar: '.swiper-scrollbar',
+  })
+  
+ var kk = localStorage.getItem("color-");
+  	console.log(kk)
+  	k4(kk);
+  </script>

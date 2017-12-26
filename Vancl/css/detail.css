@@ -1,0 +1,75 @@
+
+section{
+	width: 100%; margin: 50px auto 0; background: white;
+}
+.sec-header{
+	width: 70%; height: 67px; text-align: center; margin: 0 auto;
+}
+.sec-header div:nth-child(1){
+	width: 1200; height: 30px; border-bottom: 2px solid #b81c22;
+}
+.sec-header div:nth-child(1) a{
+	display: block; width: 88px; height: 30px; line-height: 30px;
+	background: #B81C22; color: white;
+}
+.sec-header div:nth-child(2){
+	width: 100%; height: 34px;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+.sec-header div:nth-child(2) a{
+	float: left; width: 74px; height: 34px; color: #656565;
+	border-right: 1px solid #ccc; line-height: 34px; position: relative;
+}
+.sec-header div:nth-child(2) a:hover{
+	color: #B81C22;
+}
+.sec-header div:nth-child(2) a span{
+	display: block; width: 11px; height: 11px;
+	background: url(../img/images/top-down_02.gif);
+	background-position: 0 -3px; position: absolute;
+	left: 55px; top: 11px;
+}
+.sec-header div:nth-child(2) a:nth-child(4) span{
+	background-position: -21px -24px; 
+}
+.sec-header div:nth-child(2) a:nth-child(5) span{
+	background-position: 0 -24px; 
+}
+.sec-header div:nth-child(2) a:nth-child(6){
+	width: 88px; float: right;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background: #EEEEEE;
+}
+.container{
+	width: 1200px; margin: 0 auto;
+}
+.container>.row>li{
+	position: relative; margin-top: 10px;
+}
+.container>.row>li>a>img:hover{
+	transform: scale(1.1);
+}
+.container>.row>li>a>img{
+	width: 100%; height: 250px; margin-top: 5%; padding: 0 5%; transition: 0.5s;
+}
+.container>.row>li>a>div{
+	width: 80%; background: rgba(0,0,0,0.6); margin: 0 5%;
+	position: absolute; bottom: 0; left: 5%; color: white;
+	
+}
+.container>.row>li>a>div>p{
+	width: 90%; 
+}
+.container>.row>li>a>h6{
+	margin: 5px 0 0 5%;overflow: hidden; font-size: 12px;
+	text-overflow: ellipsis; white-space: nowrap;
+}
+.container>.row>li>a>p{
+	margin: 5px 0 0 5%; float: left;
+}
+.container>.row>li>a>button{
+	font-size: 12px; margin: 7px 15px 0 0; display: block; padding: 0 4px;
+	border: none; background: silver; float: right; border-radius: 2px;
+}

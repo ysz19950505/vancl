@@ -1,0 +1,82 @@
+section{
+	width: 1200px; margin: 50px auto 0; border-bottom: 1px solid #CCCCCC;
+}
+.sec-header{
+	width: 1200px; height: 45px;
+	line-height: 45px; border-bottom: 1px solid #CCCCCC;
+}
+.sec-header>.tietle{
+	margin: 0 10px; float: left; font-size: 18px;
+	font-weight: 600; line-height: 45px;
+}
+.sec-header>div{
+	float: right; font-size: 15px;
+}
+.sec-header>div>a{
+	font-weight: bold; float: right; padding-left: 15px; color: #000;
+}
+.sec-header>div>span{
+	display: block; float: right; padding-left: 10px;
+}
+.main{
+	width: 1200px; height: 500px; padding: 50px 0;
+}
+.main>.sec-img{
+	width: 600px; height: 400px; float: left; padding: 0 100px;
+}
+.main>.sec-img>img{
+	width: 400px; height: 400px;
+}
+.main>p{
+	margin-top: 15px;
+}
+.main>#price{
+	height: 26px; color: #A10000; font: 12px/20px "宋体";
+}
+.main>#price>span{
+	font-size: 18px; line-height: 26px; font-family: "微软雅黑";
+}
+.main>#style, .main>#size, .main>#choose{
+	height: 40px; display: block; position: relative;
+}
+.main>#style>a, .main>#size>a, .main>#choose>a{
+	float: left; font-size: 12px; color: #666;
+}
+.main>#style>span, .main>#size>span, .main>#choose>span{
+	width: 95px; height: 25px; float: left;
+	border: 1px solid #C0C0C0; margin: 0 10px;
+}
+.main>#size>span{
+	width: 30px;
+}
+.main>#shop{
+	height: 50px; margin-top: 20px;
+}
+.main>#shop>span{
+	width: 163px; height: 33px; float: left;
+	font: 14px/32px "微软雅黑"; text-align: center;
+	border: 1px solid #B81C22; margin: 8px 20px;
+	background: #A50309; color: white; cursor: pointer;
+}
+.main>ul{
+	width: 380px; height: 60px; float: left;
+	margin-top: 30px; padding-left: 30px;
+	border-top: 1px solid #B81C22;
+	border-bottom: 1px solid #B81C22;
+	position: relative;
+}
+.main>ul>li{
+	list-style: disc; height: 24px; font: 12px/24px "微软雅黑";
+	margin-top: 5px; color: gray;
+	
+}
+.main>ul>span{
+	width: 65px; height: 14px; font: 12px/14px "微软雅黑";
+	display: block; color: #B81C22; font-weight: 800;
+	position: absolute; top: -7px; left: 170px;
+	background: white; text-align: center;
+}
+section>.xxx{
+	width: 1200px; height: 500px; margin: 0 auto; font-size: 50px;
+	text-align: center; border-top: 1px solid gray;
+}

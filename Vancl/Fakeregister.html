@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>注册/登录</title>
+		<link rel="stylesheet" type="text/css" href="styles/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/TalkWeb.css" />
+		<link rel="stylesheet" type="text/css" href="font_svg/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<meta name="viewport" content="width = device-width" />
+	</head>
+
+	<body>
+		<div id="body-" class="body-">
+									
+			<a href="FankeWeb.html"><img id="logo-m" class="logo-m" src="img/logo-default.png"/></a>
+			
+			<div class="register" id="register">
+				<div></div>
+				<div class="qr-code"><img src="img/qr-code.jpg" /></div>
+				<div></div>
+				<div>Q</div>
+				
+			</div>
+			
+
+			<div class="main" id="main">
+				<div id="next-page" class="next-page">
+					<p class="p-btn">更多</p>
+				</div>
+
+				<!--<div class="cotn_principal">-->
+				<div class="cont_centrar">
+					<div class="cont_login">
+						<div class="cont_info_log_sign_up">
+							<div class="col_md_login">
+								<div class="cont_ba_opcitiy" id="cont_ba_opcitiy">
+									<h2>登录</h2>
+									<!--<h2>login</h2>-->
+									<p>掌握最新动态，立即登录！</p>
+									<button class="btn_login" onClick="cambiar_login()">点击登陆</button>
+								</div>
+							</div>
+							<div class="col_md_sign_up" onClick="cambiar_sign_up()">
+								<div class="cont_ba_opcitiy" id="cont_ba_opcitiy">
+									<h2>注册</h2>
+									<!--<h2>sign up</h2>-->
+									<p>开始一个新的旅程！</p>
+									<button class="btn_sign_up" onClick="cambiar_sign_up()">注册有礼哦</button>
+								</div>
+							</div>
+						</div>
+						<div class="cont_back_info">
+							<div class="cont_img_back_grey"> <img src="img/bg-body.png" alt="" /> </div>
+						</div>
+						<div class="cont_forms">
+							<div class="cont_img_back_"> <img src="img/bg-body.png" alt="" /> </div>
+							<div class="cont_form_login">
+								<a href="#" onClick="ocultar_login_sign_up()">
+									<span class="material-icons"><</span></a>
+								<h2>登录</h2>
+								<!--<h2>login</h2>-->
+								<input id="username-1" type="text" placeholder="Email/邮箱/用户名" />
+								<input id="password-2" type="password" placeholder="Password/密码" />
+								<button class="btn_login" onClick="cambiar_login()">点击登陆</button>
+							</div>
+							<div onClick="cambiar_sign_up()" class="cont_form_sign_up">
+								<a href="#" onClick="ocultar_login_sign_up()">
+									<span class="material-icons"><</span></a>
+								<h2>注册</h2>
+								<!--<h2>sign up</h2>-->
+								<input id="e-mail" type="text" placeholder="Email/邮箱" />
+								<span class="good-1">good!</span>
+								<input id="username" type="text" placeholder="User/用户" />
+								<span class="good-2">good!</span>
+
+								<input id="password" type="password" placeholder="Password/密码" />
+								<span class="good-3"></span>
+
+								<input id="password-1" type="password" placeholder="Confirm Password/确认密码" />
+								<span class="good-4"></span>
+								<button class="btn_sign_up" onClick="cambiar_sign_up()">点击注册</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--</div>-->
+				<div class="font-icon">
+					<div class="iconfont icon-pifuzhuti-xianxing">
+						<div class="i-color">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+					<div class="iconfont icon-diamond-o"></div>
+					<div class="iconfont icon-wenhao-xianxingyuankuang"></div>
+					<div class="iconfont icon-yingwenmoshi"></div>
+				</div>
+			</div>
+			<div id="buttom" class="buttom">
+				<p>备案号:湘B2-20100081-4、新出网证（湘）字11号、湘网文【2016】1046-021号</p>
+				<p>版权所有：凡客信息系统股份有限公司</p>
+			</div>
+		</div>
+		
+		
+	</body>
+
+</html>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/change-color.js"></script>
+<script src="scripts/swiper.min.js"></script>
+<script src="js/TalkWeb-register.js" type="text/javascript" charset="utf-8"></script>

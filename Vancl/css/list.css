@@ -1,0 +1,21 @@
+*{
+	margin: 0;padding: 0;
+}
+#goodsList{
+	width: 100%;
+	margin-top: 5%;
+}
+.moretext{
+	width: 100%;
+	border-radius:5px ;
+	background: #A10000;
+}
+.moretext span{
+	width: 10%;
+	display: inline-block;
+	margin-left: 45%;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+	font-size: 16px;
+}

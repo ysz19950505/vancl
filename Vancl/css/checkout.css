@@ -1,0 +1,100 @@
+section{
+	width: 1200px; margin: 0 auto; font-size: 14px;
+}
+section>h4{
+	height: 40px; font-weight: 600; line-height: 40px; padding-left: 20px;
+	background: -webkit-linear-gradient(top, white, gainsboro);
+}
+.address{
+	width: 1200px; height: 300px;
+	border: 1px solid #DCDFE5;
+	position: relative;
+}
+.address>span{
+	display: block; float: left;
+	width: 249px; height: 300px;
+	border-right: 1px solid #DCDFE5;
+	text-align: center; line-height: 300px;
+	background: gainsboro; font-weight: 600;
+}
+
+.address-r{
+	width: 900px; height: 170px; float: left;
+	position: relative; overflow: hidden;
+}
+.address-r>.join-add{
+	width: 220px; height: 150px;
+	margin: 10px 0 0 20px;
+	padding-top: 20px; float: left;
+	border: 2px solid gainsboro;
+}
+.address-r>.join-add>span{
+	display: block; color: gray; margin: 5px 0 0 10px;
+}
+.address-r>.join-add>span:nth-child(1){
+	width: 150px; height: 30px; line-height: 30px;
+	border-bottom: 1px solid gainsboro;
+}
+.address-r>.join-add>.delete{
+	margin-top: 10px; width: 50px; cursor: pointer;
+}
+.address-r>.join-add>.delete:hover{
+	color: #B81B22;
+}
+#btn1{
+	position: absolute;
+	bottom: 50px; left: 270px;
+}
+.add{
+	position:fixed;
+    z-index: 100;
+    top: 150px;
+    border: 4px solid #d2d2d2;
+    width: 630px;
+    height: 270px;
+    padding-left: 20px;
+    background-color: #fff;
+    left: 50%;
+    margin-left: -320px;
+    display: none;
+}
+.add>span{
+	width: 16px;
+    height: 16px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: #fff;
+    background-color: #ba1000;
+}
+.add>form>p{
+	display: block; margin-top: 12px;
+}
+.add>form>input{
+	margin-top: 14px;
+}
+.sec-d{
+	width: 1200px; height: 150px;
+}
+.sec-d>#price>h3{
+	text-align: center;
+}
+.sec-d>#price>h3>span{
+	font-size: 26px; color: #B81B22;
+}
+.sec-d>#order{
+	display: block;
+    width: 150px;
+    height: 41px;
+    margin: 5px auto 0;
+    color: white;
+    text-align: center;
+    font: 26px/40px "微软雅黑";
+    background: #BA1000;
+    border-radius: 5px;
+    cursor: pointer;
+}

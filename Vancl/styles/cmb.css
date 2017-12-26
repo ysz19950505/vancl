@@ -1,0 +1,52 @@
+html,body{
+	width: 100%;
+	position: relative;
+}
+body{
+	background: #eee;
+	font-size: 14px;
+	color: #fff;
+	
+}
+
+
+.swiper-slide{
+	font-size: 18px;
+	text-align: center;
+	background: #fff;
+}
+.up-arrow{
+	position: absolute;	
+	top: 0;
+	right: 0px;
+	margin: 0px auto;
+	bottom: 40px;
+	width: 75px;
+	z-index: 11;
+	opacity: 0.8;
+	
+}
+/*.up-arrow{
+	width: 100%;
+	animation: upArrow 1.5s infinite ease-in-out;
+}
+
+@-webkit-keyframes upArrow{
+	from{}
+	to{}
+}*/
+
+/*fitst page*/
+.indexText,
+.indexText img:nth-child(1),
+.indexText img:nth-child(2),
+.indexText img:nth-child(3),
+.index-building,
+.index-clouud,
+.index-flight,
+.index-stars,{
+	position: absolute;
+}
+.indexText{
+	
+}

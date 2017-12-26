@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.accordion{
+	margin-top: 15%;
+	width: 50%;
+	margin-left: 25%;
+	/*margin: 100px auto;*/
+	/*border: 1px solid #a10000;*/
+}
+.accordion ul{
+	list-style: none;
+}
+.accordion ul li.cur h3{
+	color: white;
+	background-color: #a10000;
+
+}
+.accordion ul li h3{
+	padding-left: 10%;
+	width: 100%;
+	padding: 6px;
+	font-size: 16px;
+	line-height: 100%;
+	background-color: gray;
+	/*padding: 0 10px;*/
+	/*border-bottom: 1px solid #000;*/
+	color:white;
+	cursor: pointer;
+	position: relative;
+}
+.accordion ul li .content{
+	display: none;
+	cursor: pointer;
+	padding-left: 10%;
+	margin:3% 0px ;
+	font-size:12px ;
+}
+.accordion ul li .content p{
+	padding-bottom: 10%;
+}
+.accordion ul li .content p:nth-child(1){
+	color: #a10000;
+}
+.accordion ul li.first .content{
+	display: block;
+}
+.accordion ul li i{
+	position: absolute;
+	right: 10px;
+	top: 8px;
+	width: 16px;
+	height: 16px;
+	background-color: yellow;
+	background: url(../img/icon.png);
+	transition:all 1s ease 0s;
+}
+.accordion ul li.cur i{
+	transform:rotate(90deg);
+}
+
+.myorderLeft{
+	width: 100%;
+	margin-top: 4%;
+	/*background: #a10000;*/
+	float: left;
+}
+.myorder-top{
+	border-bottom:1px solid gray;
+}
+.myorder-top>span{
+	border-bottom: 3px solid #A10000;
+}
+#order-list{
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	padding-top: 5%;
+	/*background: red;*/
+}
+#order-list a{
+	color: #A10000;
+}
+
+
+.order-item img{
+	width: 10%;margin: 10%;
+}
+.recommend{
+	width: 100%;
+	padding: 6px;
+	background: grey;
+	border: 1px solid darkgray;
+	margin-top: 10%;
+	color: #fff;
+}
+
+
+#goodslist{
+	width: 100%;
+}
+.thumbNail{
+	width: 100%;float: left;
+}
+.thumbNail>img{
+	width: 60%;height: 120px;margin-left:15% ;
+	margin-top: 4%;
+}
+
+.Caption>h3{
+	margin: 5px 18%;
+	font-size: 12px;color: dimgray;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+}
+.Caption>p:nth-child(2){
+	font-size: 10px;color: #122B40;
+	font-weight:bold ;
+	font-size:10px ;
+	margin-left: 30%;
+}
+.Caption>p:nth-child(2)>span{
+	color: #b81c22;
+	font-weight: bold;
+	font-size: 10px;
+}
+.Caption>p:nth-child(3){
+	display: inline-block;
+	padding: 2px;
+	font-size: 8px;
+	background: #b81c22;
+	color: white;
+	border-radius: 5px;
+	margin-left: 30%;
+}
+
+

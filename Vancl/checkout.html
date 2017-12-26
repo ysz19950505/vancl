@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>地址和支付方式</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/checkout.css" />
+		<link rel="stylesheet" href="css/currency.css" />
+	</head>
+	<body>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="index.html"><img class="logoImg" src="img/logo.png"/></a>
+			    </div>
+			
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav">
+			        <li class="active"><a href="index.html">首页 <span class="sr-only">(current)</span></a></li>
+			        <li class="dropdown">
+			          <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">商品分类<span class="caret"></span></a>
+			          <ul class="dropdown-menu" id="ulList">
+			          </ul>
+			        </li>
+			      </ul>
+			      <ul class="nav navbar-nav navbar-right">
+			            <li><a href="register.html">注册</a></li>
+		                <li><a href="login.html">登录</a></li>
+		                <li><a href="login.html">购物车</a></li>
+		                <li><a href="login.html"><img src="img/notice.png"/>网站公告</a></li>
+		                <li>
+		                	<a href=""><img src="img/w1.jpg"/></a>
+		                </li>
+		                <li> <a href=""><img src="img/w2.jpg"/></a></li>
+			      </ul>
+			    </div>
+			  </div>
+        </nav>
+        <div class="container-fluid">
+        	<form class="navbar-form navbar-right search-nav">
+			    <div class="form-group">
+			        <input type="text" class="form-control" id="search" placeholder="搜索“羊毛大衣”">
+			    </div>
+		        <button type="button" class="btn btn-default" id="searchBtn">搜索</button>
+			</form>
+        </div>
+        <div class="container-fluid">
+        	<div class="logo-banner">
+        		<a class="biglogo" href="index.html"><img src="img/logo.png"/></a>
+        		<ul class="ulList">
+			    </ul>
+        	</div>
+        </div>
+		<section>
+			<h4>填写核对信息</h6>
+			<div class="address">
+				<span>收货地址：</span>
+				<div class="address-r">
+					<!--<div class="join-add">
+						<span>戚鹏程</span>
+						<span>13139586898</span>
+						<span>湖南省 长沙市 岳麓区</span>
+						<span>五一广场（100000）</span>
+						<span id="delete">删除</span>
+					</div>-->
+					
+				</div>
+				<input type="button" value="添加新地址" id="btn1" />
+			</div>
+			<div></div>
+			<div class="add" id="add">
+				<span class="close">X</span>
+				<form action="">
+					<p>
+						收货人：
+						<input type="text" name="address_name" placeholder="请准确填写真实姓名"/>
+					</p>
+					<p>
+						手机号：
+						<input type="text" name="mobile" placeholder="手机或者座机"/>
+					</p>
+					<p>
+						省：
+						<input type="text" name="province" placeholder="请输入收货人所在省"/>
+					</p>
+					<p>
+						市：
+						<input type="text" name="city" placeholder="请输入收货人所在市"/>
+					</p>
+					<p>
+						区：
+						<input type="text" name="district" placeholder="请输入收货人所在区县"/>
+					</p>
+					<p>
+						详细地址：
+						<input type="text" name="address" placeholder="请详细填写路名及门牌号"/>
+					</p>
+					<input type="button" value="保存并配送到这个地址" id="btn2"/>
+				</form>
+			</div>
+			<div class="sec-d">
+				<div id="price">
+					<!--<h3>您还需支付：<span id="price">￥100000</span></h3>-->
+				</div>
+				<span id="order">提交订单</span>
+			</div>
+		</section>
+		<div class="container">
+			<div class="row">
+				<div class=" col-sm-6 col-md-4 Customer-service">
+					<a href="javascript:">
+						<img src="img/onlinecustomer.png"/>
+					    <p>7×9小时在线客服</p>
+					</a>
+					<a href="javascript:">关于凡客</a>|
+					<a href="javascript:">新手指南</a>
+				</div>
+				<div class="col-sm-6 col-md-4 Parcel-post">
+					<a href="javascript:">
+						<img src="img/seven.png"/>
+					    <p>7天内退换货</p>
+					    <p>购物满199元免运费</p>
+					</a>
+					<a href="javascript:">配送范围及时间</a>|
+					<a href="javascript:">支付方式</a>
+				</div>
+				<div class="col-sm-6 col-md-4 service">
+					<a href="javascript:">
+						<img src="img/2014_8_29_16_39_33_7709.jpg"/>
+					    <p>扫描下载凡客客户端</p>
+					</a>
+					<a href="javascript:">售后服务</a>|
+					<a href="javascript:">帮助中心</a>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-12 footer">
+					<p>Copyright 2007 - 2016 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11011502002400号 出版物经营许可证新出发京批字第直110138号</p>
+                    <p>凡客诚品（北京）科技有限公司</p>
+					<ul>
+						<li><a href="javascript:"></a></li>
+						<li><a href="javascript:"></a></li>
+						<li><a href="javascript:"></a></li>
+						<li><a href="javascript:"></a></li>
+						<li><a href="javascript:"></a></li>
+						<li><a href="javascript:"></a></li>
+					</ul>
+			    </div>
+			 </div>  
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.12.3.min.js" ></script>
+<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+<script type="text/javascript" src="js/currency.js" ></script>
+<script type="text/javascript" src="js/checkout.js" ></script>

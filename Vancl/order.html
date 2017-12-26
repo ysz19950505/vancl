@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width"/>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/order.css" />
+	</head>
+	<body>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="index.html"><img class="logoImg" src="img/logo.png"/></a>
+			    </div>
+			
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav">
+			        <li class="active"><a href="index.html">首页 <span class="sr-only">(current)</span></a></li>
+			        <li class="dropdown">
+			          <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">商品分类<span class="caret"></span></a>
+			          <ul class="dropdown-menu" id="ulList">
+			          </ul>
+			        </li>
+			      </ul>
+			      <!--<form class="navbar-form navbar-left">
+			        <div class="form-group">
+			          <input type="text" class="form-control" placeholder="Search">
+			        </div>
+			        <button type="submit" class="btn btn-default">Submit</button>
+			      </form>-->
+			      <ul class="nav navbar-nav navbar-right">  	
+	                    <!--<li><a href="login.html">登录</a></li>-->
+	                    <li><a href="order.html">我的订单</a></li>
+		                 <li>
+		                	 <a href="cart.html" id="cart-nav" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">购物车(0)<span class="caret"></span></a>
+		                     <ul class="dropdown-menu cartnav" id="cartnav">
+		                      </ul>
+		                </li>
+		                <li><a href="index.html"><img src="img/notice.png"/>网站公告</a></li>
+		                <li>
+		                	<a href=""><img src="img/w1.jpg"/></a>
+		                </li>
+		                <li> 
+		                	<a href=""><img src="img/w2.jpg"/></a>
+		                </li>
+			      </ul>
+			      <ul class="nav navbar-nav navbar-right login-">
+		      	    	<li>
+		      	    		<a href="TalkWebregister.html">注册</a></li>
+		      	    	<li>	    
+		      	    		<a href="TalkWebregister.html">登录</a>
+		      	    	</li>
+		      	  </ul>
+			    </div>
+			  </div>
+        </nav>
+        <div class="container-fluid">
+        	<form class="navbar-form navbar-right search-nav">
+			    <div class="form-group">
+			        <input type="text" class="form-control" id="search" placeholder="搜索“羊毛大衣”">
+			    </div>
+		        <button type="button" class="btn btn-default" id="searchBtn">搜索</button>
+			</form>
+        </div>
+        <div class="container-fluid">
+        	<div class="logo-banner">
+        		<a class="biglogo" href="index.html"><img src="img/logo.png"/></a>
+        		<ul class="ulList">
+			    </ul>
+        	</div>
+        </div>
+        
+        <div class="container-fluid">
+        	<div class="col-sm-6 col-md-3 col-lg-3">
+        		<div class="accordion">
+			  		<ul>
+			  			<li class="cur first">
+			  				<h3>订单中心<i></i></h3>
+			  				<div class="content">
+			  					<p>我的订单</p>
+			  					<p>我的定制订单</p>
+			  					<p>我的优惠劵</p>
+			  					<p>我的积分</p>
+			  				</div>
+			  			</li>
+			  			<li>
+			  				<h3>客服中心<i></i></h3>
+			  				<div class="content">
+			  					<p>退换货管理</p>
+			  					<p>商品提问</p>
+			  					<p>我要评价</p>
+			  				</div>
+			  			</li>
+			  			<li>
+			  				<h3>账户管理<i></i></h3>
+			  				<div class="content">
+			  					<p>账户余额</p>
+			  					<p>收货地址</p>
+			  					<p>账户安全</p>
+			  					<p>我的资料</p>
+			  					<p>我的关联账户</p>
+			  				</div>
+			  			</li>
+			  		</ul>
+			  	</div>
+        	</div>
+        	<div class="col-sm-6 col-md-9 col-lg-9">
+        		<div class="myorderLeft">
+        			<div class="myorder-top"><span>我的订单</span></div>
+        			<div id="order-list"></div>
+        			<div class="recommend">为您推荐</div>
+        			<div class="row" id="goodslist"></div>
+        		</div>
+        	</div>
+        </div>
+        
+        
+        
+        
+        
+        
+        <div class="container">
+			<div class="row">
+				<div class=" col-sm-6 col-md-4 Customer-service">
+					<a href="javascript:">
+						<img src="img/onlinecustomer.png"/>
+					    <p>7×9小时在线客服</p>
+					</a>
+					<a href="javascript:">关于凡客</a>|
+					<a href="javascript:">新手指南</a>
+				</div>
+				<div class="col-sm-6 col-md-4 Parcel-post">
+					<a href="javascript:">
+						<img src="img/seven.png"/>
+					    <p>7天内退换货</p>
+					    <p>购物满199元免运费</p>
+					</a>
+					<a href="javascript:">配送范围及时间</a>|
+					<a href="javascript:">支付方式</a>
+				</div>
+				<div class="col-sm-6 col-md-4 service">
+					<a href="javascript:">
+						<img src="img/2014_8_29_16_39_33_7709.jpg"/>
+					    <p>扫描下载凡客客户端</p>
+					</a>
+					<a href="javascript:">售后服务</a>|
+					<a href="javascript:">帮助中心</a>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-12 footer">
+					<p>Copyright 2007 - 2016 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11011502002400号 出版物经营许可证新出发京批字第直110138号</p>
+                    <p>凡客诚品（北京）科技有限公司</p>
+					<ul>
+						<li><a href="javascript:"></a></li>
+						<li><a href="javascript:"></a></li>
+						<li><a href="javascript:"></a></li>
+						<li><a href="javascript:"></a></li>
+						<li><a href="javascript:"></a></li>
+						<li><a href="javascript:"></a></li>
+					</ul>
+			    </div>
+			 </div>  
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.12.3.min.js" ></script>
+<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+<!--<script type="text/javascript" src="js/index.js" ></script>-->
+<script type="text/javascript" src="js/order.js" ></script>

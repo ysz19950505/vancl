@@ -1,0 +1,248 @@
+/*body{
+    height:100%;
+}*/
+#lotteryContainer {
+    position:relative;
+    width: 300px;
+    height:100px;
+}
+#drawPercent {
+    color:#F60;
+}
+.game{
+	width: 50em;
+	height: 94%;
+	/*border: 0.1rem solid red;*/
+	margin: 1em auto;
+	position: absolute; left: 13em;
+}
+.circle{
+	width: 50em;
+	height: 100%;
+	/*border: 0.1rem solid red;*/
+	position: absolute;top: 0em; left: 0em;
+	margin: 0em auto;
+	left: 0%;
+}
+.swiper-slide{
+	background: black;
+	color: white;
+	
+}
+.swiper-slide p{
+	/*background: black;*/
+	color: white;
+	text-indent: 1em;
+}
+.swiper-slide .title-ali{
+	position: absolute; left: 20rem; bottom: 1rem;
+}
+.start{
+	position: absolute;
+    left: 19em;
+    width: 12em;
+    top: 26em;
+    cursor: pointer;
+}
+.start:hover{
+	width: 12.5em;
+}
+.swiper-button-prev,.swiper-button-next{
+	display: none;
+}
+.next-g{
+	position: absolute; 
+	width: 8em;
+    position: absolute;
+    top: -3em;
+    right: -1em;
+    /*display: none;*/
+}
+.next-g:before{
+	content: "进入下一关";
+	font-size: 2em;
+}
+.open{
+	position: absolute; left: 19.5em; bottom: 2em;
+	display: none;
+}
+
+.open-{
+	position: absolute; left: 19.5em; bottom: 2em;
+	display: none;
+}
+.open--{
+	position: absolute; left: 19.5em; bottom: 2em;
+	display: none;
+}
+.open---{
+	position: absolute; left: 19.5em; bottom: 2em;
+	display: none;
+}
+.open----{
+	position: absolute; left: 19.5em; bottom: 2em;
+	display: none;
+}
+
+.axi-no{
+	position: absolute;
+    left: 3.5em;
+    bottom: 0.5em;
+    display: none;
+    cursor: pointer;
+
+}
+.axi-yes{
+	position: absolute;
+    left: 42em;
+    bottom: 0.5em;
+    display: none;
+    cursor: pointer;
+}
+.doyou{
+	position: absolute;
+    left: 11em;
+    top: 11em;
+    display: none;
+}
+.ans1{
+	position: absolute;
+    left: 19em;
+    top: 16em;
+    width: 15em;
+    display: none;
+}
+.ans2{
+	position: absolute;
+    left: 19em;
+    top: 16em;
+    width: 15em;
+    display: none;
+}
+.ans3{
+	position: absolute;
+    left: 19em;
+    top: 16em;
+    width: 15em;
+    display: none;
+}
+.end1{
+	position: absolute;
+    left: 18em;
+    top: 10em;
+    z-index: 151;
+        display: none;
+}
+.end2{
+	position: absolute;
+    left: 20em;
+    top: 16em;
+    z-index: 151;
+        display: none;
+}
+.end3{
+	position: absolute;
+    left: 18em;
+    top: 13em;
+    z-index: 152;
+        display: none;
+}
+.end4{
+	position: absolute;
+    left: 17em;
+    top: 9em;
+        display: none;
+}
+.re-ans{
+	position: absolute;
+    left: 18em;
+    z-index: 153;
+    top: 14em;
+        display: none;
+}
+.alibaba{
+	position: absolute;
+    left: 33em;
+    top: 12em;
+    width: 15em;
+}
+.alibaba:nth-child(2){
+	position: absolute;
+    right: 1em;
+    top: 11em;
+    width: 13em;
+}
+.alibaba:nth-child(3){
+	position: absolute;
+    right: 33em;
+    top: 11em;
+    width: 13em;
+}
+.clo1{
+	position: absolute;
+    left: 5em;
+    top: 2.5em;
+    width: 7em;
+    cursor: pointer;
+}
+.clo2{
+	position: absolute;
+    left: 5em;
+    top: 11em;
+    width: 7em;
+    cursor: pointer;
+}
+.clo3{
+	position: absolute;
+    left: 5em;
+    top: 19.5em;
+    width: 7em;
+    cursor: pointer;
+}
+.clo3:hover{
+	width: 7.5em;
+}
+.clo2:hover{
+	width: 7.5em;
+}
+.clo1:hover{
+	width: 7.5em;
+}
+.erro{
+	position: absolute;
+    left: 22em;
+    top: 20em;
+    width: 8em;
+    display: none;
+    z-index: 199;
+}
+.xx{
+	display: block;
+}
+
+
+@media screen and (min-width:500px)  and (max-width:1200px){
+	.circle{
+		width: 49em;
+	    height: 116%;
+	    position: absolute;
+	    top: 0em;
+	    left: 0em;
+	    margin: 0em auto;
+	    left: -14%;
+	    z-index: 0;
+	    
+	}
+}
+@media screen and (max-width:500px){
+	.game{
+		display: none;
+	}
+	#mian{
+		display: none;
+	}
+	.body{
+		width: 32em;
+		height: 112%;
+	}
+}
